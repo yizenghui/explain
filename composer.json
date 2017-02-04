@@ -1,0 +1,20 @@
+{
+    "name": "yizenghui/explain",
+    "description": "get object from html resource for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yizenghui",
+            "email": "245561237@qq.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "jaeger/querylist": "^3.1"
+	},
+    "autoload":{
+        "psr-4":{
+            "ExplainHtml\\":"src/explain"
+        }
+    }
+}
